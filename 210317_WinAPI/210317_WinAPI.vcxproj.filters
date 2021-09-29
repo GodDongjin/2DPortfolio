@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{77994adb-bb80-42e8-886b-851bb890958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework">
+      <UniqueIdentifier>{fae288c9-1a89-4141-bbae-e4f3680953fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy">
+      <UniqueIdentifier>{6e5df244-c6a3-43cb-b9d0-02b9ddf1a72c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Missile">
+      <UniqueIdentifier>{5a86d586-c7fc-46be-93af-bd645e44e8f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Manager">
+      <UniqueIdentifier>{b13c0c7c-4aa6-4918-a643-613eaee0edc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Timer">
+      <UniqueIdentifier>{1e84e8d0-34db-4438-9c9b-8c3603ab2fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{43d02367-700b-49b5-a030-feb7b581ed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI">
+      <UniqueIdentifier>{f77d4c3b-d1c0-4152-8943-cde8ada65ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\UI\Button">
+      <UniqueIdentifier>{91eb96ad-df64-4b6d-bc8b-8a504d0d37bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Camera">
+      <UniqueIdentifier>{c9636a77-f382-43f7-8519-16a27be4ce6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Weapon">
+      <UniqueIdentifier>{1e618df9-0df7-4c4a-a027-f2efd8b93420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Missile\MissileKind">
+      <UniqueIdentifier>{2fa073b3-d617-4732-9551-d28b6a0fad4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\Effect">
+      <UniqueIdentifier>{76f2e31c-101d-4c9d-bd6c-5fee71eb9258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Enemy\EnemyKind">
+      <UniqueIdentifier>{cdb84697-d2a2-4956-bc58-0483034cf3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Collision">
+      <UniqueIdentifier>{e332236c-01d7-42c2-83c3-c49ae1a99965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Framework\GameData">
+      <UniqueIdentifier>{da39f26c-db31-4dec-a60b-28e9353d017c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Boss">
+      <UniqueIdentifier>{dd25d6cf-93af-4ecc-8571-311d2b509674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\BossMissile">
+      <UniqueIdentifier>{bbcfb872-102e-4a00-82ce-bdc72f6bf40b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNode.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>MainGame\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2D Framework\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2D Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapTool.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObject.cpp">
+      <Filter>2D Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>2D Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageData.cpp">
+      <Filter>2D Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>MainGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="starGun.cpp">
+      <Filter>MainGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>MainGame\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileManager.cpp">
+      <Filter>MainGame\Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="StarGunMissile.cpp">
+      <Filter>MainGame\Missile\MissileKind</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>2D Framework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>2D Framework\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy1.cpp">
+      <Filter>MainGame\Enemy\EnemyKind</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>MainGame\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MisiileGun.cpp">
+      <Filter>MainGame\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MissileGunMissile.cpp">
+      <Filter>MainGame\Missile\MissileKind</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy2.cpp">
+      <Filter>MainGame\Enemy\EnemyKind</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>2D Framework\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>MainGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMissileManager.cpp">
+      <Filter>MainGame\BossMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMissile.cpp">
+      <Filter>MainGame\BossMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>MainGame\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>MainGame\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2D Framework\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2D Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapTool.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>2D Framework\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraObject.h">
+      <Filter>2D Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>2D Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageData.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>2D Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>MainGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="starGun.h">
+      <Filter>MainGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileManager.h">
+      <Filter>MainGame\Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="StarGunMissile.h">
+      <Filter>MainGame\Missile\MissileKind</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>2D Framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>2D Framework\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy1.h">
+      <Filter>MainGame\Enemy\EnemyKind</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>MainGame\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MisiileGun.h">
+      <Filter>MainGame\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MissileGunMissile.h">
+      <Filter>MainGame\Missile\MissileKind</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy2.h">
+      <Filter>MainGame\Enemy\EnemyKind</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>2D Framework\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>MainGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMissileManager.h">
+      <Filter>MainGame\BossMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMissile.h">
+      <Filter>MainGame\BossMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

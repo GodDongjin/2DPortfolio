@@ -1,0 +1,9 @@
+﻿  StarGunMissile.cpp
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\Missile.h(55,51): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\Image.h(110,41): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\Image.h(111,42): warning C4244: 'return': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\StarGunMissile.cpp(80,55): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\StarGunMissile.cpp(80,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\StarGunMissile.cpp(84,52): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\210317_WinAPI\StarGunMissile.cpp(84,38): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  210317_WinAPI.vcxproj -> C:\Users\신동진\Desktop\2D 포트폴리오 동굴 이야기\x64\Debug\210317_WinAPI.exe
